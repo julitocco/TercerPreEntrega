@@ -1,0 +1,75 @@
+/* Formulario */
+
+form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .btn-aceptar {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-cancelar {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    background-color: #f44336;
+  }
+  
+  .btn-aceptar:hover, .btn-cancelar:hover {
+    background-color: #45a049;
+  }
+  
+  .btn-aceptar:focus, .btn-cancelar:focus {
+    outline: none;
+  }
+  
+  /** responsive */
+  /* vista tablet */
+  
+  @media (max-width: 1023px) {
+    /* Header*/
+  
+    .encabezado {
+      height: auto;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
+  .encabezado .boton {
+    display: none;
+  }
+  
+  /* Banner*/
+  
+  .bannerContenido p {
+    font-size: 2.5 rem;
+  }
+  
