@@ -1,13 +1,18 @@
+//Base
 @import "variables";
 @import "reset";
+
+//Components 
 @import "header";
+@import "main";
 @import "banner";
-@import "productos";
 @import "footer";
+
+//Layouts
+@import "productos";
 @import "contacto";
 @import "responsive";
 @import "nosotros";
 @import "preguntas";
-@import "main";
 
 
